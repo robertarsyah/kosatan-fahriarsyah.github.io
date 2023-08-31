@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Tugas 13</title>
+  </head>
+  <body>
+    <iframe
+      style="display: none"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/6887_u1QDA4?rel=0&amp;autoplay=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <div class="w3-grey">
+      <img src="img/header.png" width="100%" height="300px" />
+    </div>
+    <div class="w3-bar w3-red">
+      <button class="w3-bar-item w3-button" onclick="openGame('Home')">
+        <i class="fa-solid fa-house"></i>
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('Holdem')">
+        Holdem
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('Poker')">
+        Poker
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('Blackjack')">
+        Blackjack
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('Roulette')">
+        Roulette
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('Chess')">
+        Chess
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openGame('TOD')">
+        TOD
+      </button>
+      <button class="w3-bar-item w3-button"></button>
+      <button class="w3-bar-item w3-button" onclick="openGame('About')">
+        About
+      </button>
+    </div>
+
+    <div
+      id="Home"
+      class="w3-container w3-animate-zoom game"
+      style="display: block"
+    >
+      <center>
+        <h1>Welcome To The Kosatan Website</h1>
+        <img
+          src="img/home.png"
+          width="30%"
+          height="30%"
+          style="display: flex"
+        />
+        <hr />
+        <h1>Berikut adalah beberapa permainan yang ada di Kosatan.</h1>
+        <h2>"Enjoy All Games And Try Your Luck"</h2>
+      </center>
+    </div>
+
+    <div
+      id="Holdem"
+      class="w3-container w3-animate-top w3-center game"
+      style="display: none"
+    >
+      <h2>Texas Hold'em</h2>
+      <img src="img/holdem.jpg" width="30%" height="10%" />
+      <hr />
+      <p>
+        Texas hold'em (juga dikenal sebagai Texas holdem , hold'em , dan holdem
+        ) adalah salah satu varian paling populer dari permainan kartu poker .
+        Dua kartu, dikenal sebagai kartu hole, dibagikan tertutup kepada setiap
+        pemain, dan kemudian lima kartu komunitas dibagikan tertutup dalam tiga
+        tahap. Tahapannya terdiri dari serangkaian tiga kartu ("gagal"),
+        kemudian satu kartu tambahan ("putaran" atau "jalan keempat"), dan kartu
+        terakhir ("sungai" atau "jalan kelima"). Setiap pemain mencari lima
+        kartu poker terbaik dari kombinasi ketujuh kartu; lima kartu komunitas
+        dan dua kartu hole mereka. Pemain memiliki taruhanopsi untuk check,
+        call, raise, atau fold. Putaran pertaruhan terjadi sebelum kegagalan
+        dibagikan dan setelah setiap kesepakatan berikutnya. Pemain yang
+        memiliki kartu terbaik dan belum terlipat pada akhir semua ronde
+        pertaruhan memenangkan semua uang yang dipertaruhkan untuk kartu
+        tersebut, yang dikenal sebagai pot. Dalam situasi tertentu, “split-pot”
+        atau “tie” dapat terjadi ketika dua pemain memiliki nilai yang setara.
+        Ini juga disebut "pot-pot".
+      </p>
+    </div>
+    <div
+      id="Poker"
+      class="w3-container w3-center w3-animate-bottom game"
+      style="display: none"
+    >
+      <h2>Poker</h2>
+      <img src="img/poker.jpg" width="30%" height="10%"">
+      <hr />
+      <p>
+        Poker adalah permainan kartu keluarga yang berbagi taruhan aturan dan
+        biasanya (tapi tidak selalu) dalam peringkat tangan. Permainan Poker
+        berbeda dalam hal bagaimana kartu dibagikan, bagaimana tangan dapat
+        terbentuk, apakah tangan tinggi atau rendah memenangkan taruhan di
+        pertarungan (dalam beberapa Permainan, taruhan dibagi antara tangan
+        tinggi dan rendah), batas taruhan dan bagaimana banyak putaran
+        pertaruhan diperbolehkan. Dalam Permainan poker yang paling modern,
+        putaran pertama pertaruhan dimulai dengan beberapa bentuk kontrak paksa.
+        Aksi kemudian hasil ke kiri. Setiap pemain pada gilirannya baik harus
+        sesuai dengan taruhan sebelumnya maksimum atau lipat, kehilangan jumlah
+        taruhan sejauh ini dan semua bunga lebih lanjut di tangan. Seorang
+        pemain yang cocok dengan taruhan juga dapat meningkatkan, meningkatkan
+        taruhan. Babak taruhan berakhir ketika semua pemain telah baik cocok
+        dengan taruhan terakhir atau dilipat. Jika semua, kecuali satu pemain
+        kali lipat pada setiap putaran, pemain yang tersisa mengumpulkan
+        taruhannya dan dapat memilih untuk menampilkan atau menyembunyikan
+        tangan mereka. Jika lebih dari satu pemain tetap di pertarungan setelah
+        ronde pertaruhan final, tangan akan ditampilkan dan tangan memenangkan
+        mengambil taruhannya.
+      </p>
+    </div>
+    <div
+      id="Blackjack"
+      class="w3-container w3-center w3-animate-right game"
+      style="display: none"
+    >
+      <h2>Blackjack</h2>
+      <img src="img/blackjack.jpg" width="30%" height="10%" />
+      <hr />
+      <p>
+        Blackjack (sebelumnya Black Jack dan Vingt-Un ) adalah permainan
+        perbankan kasino. Ini adalah permainan perbankan kasino yang paling
+        banyak dimainkan di dunia. Ini menggunakan setumpuk 52 kartu dan turun
+        dari keluarga global permainan perbankan kasino yang dikenal sebagai Dua
+        Puluh Satu . Keluarga permainan kartu ini juga termasuk permainan Eropa
+        Vingt-et-Un dan Pontoon, dan permainan Rusia Ochko. Pemain Blackjack
+        tidak bersaing satu sama lain. Game ini adalah Game kartu perbandingan
+        di mana setiap pemain bersaing dengan dealer.
+      </p>
+    </div>
+    <div
+      id="Roulette"
+      class="w3-container w3-center w3-animate-left w3-center game"
+      style="display: none"
+    >
+      <h2>Roulette</h2>
+      <img src="img/roulette.jpg" width="30%" height="10%" />
+      <hr />
+      <p>
+        Roulette adalah permainan kasino yang dinamai dari kata Prancis yang
+        berarti roda kecil yang kemungkinan besar dikembangkan dari permainan
+        Italia , Biribi . Dalam permainan, seorang pemain dapat memilih untuk
+        memasang taruhan pada satu nomor, berbagai pengelompokan nomor, warna
+        merah atau hitam, apakah nomornya ganjil atau genap, atau jika angkanya
+        tinggi (19–36) atau rendah ( 1–18). Untuk menentukan nomor pemenang,
+        bandar memutar roda ke satu arah, lalu memutar bola ke arah yang
+        berlawanan di sekitar jalur melingkar miring yang mengelilingi tepi luar
+        roda. Bola akhirnya kehilangan momentum , melewati area deflektor, dan
+        jatuh ke roda dan menjadi salah satu dari tiga puluh tujuh (rolet gaya
+        Prancis atau Eropa nol tunggal) atau tiga puluh delapan (rolet gaya
+        Amerika nol ganda) atau tiga puluh sembilan (triple-zero, "Sands
+        Roulette") kantong berwarna dan bernomor pada roda. Kemenangan kemudian
+        dibayarkan kepada siapa saja yang telah memasang taruhan yang berhasil
+      </p>
+    </div>
+    <div
+      id="Chess"
+      class="w3-container w3-center w3-animate-top game"
+      style="display: none"
+    >
+      <h2>Chess</h2>
+      <img src="img/chess.png" width="30%" height="10%" />
+      <hr />
+      <p>
+        Catur adalah permainan papan antara dua pemain . Kadang-kadang disebut
+        catur internasional atau catur Barat untuk membedakannya dari permainan
+        sejenis , seperti xiangqi (catur Cina) dan shogi (catur Jepang). Bentuk
+        permainan saat ini muncul di Spanyol dan seluruh Eropa Selatan selama
+        paruh kedua abad ke-15 setelah berevolusi dari chaturanga , permainan
+        asal India yang serupa tetapi jauh lebih tua . Saat ini, catur adalah
+        salah satu permainan terpopuler di dunia, dimainkan oleh jutaan orang di
+        seluruh dunia. Catur adalah permainan strategi abstrak dan tidak
+        melibatkan informasi tersembunyi . Itu dimainkan di papan catur dengan
+        64 kotak yang disusun dalam kotak berukuran delapan kali delapan. Pada
+        awalnya, setiap pemain mengontrol enam belas bidak : satu raja , satu
+        ratu , dua benteng , dua uskup , dua ksatria , dan delapan pion . Pemain
+        yang menguasai bidak putih bergerak terlebih dahulu, diikuti oleh pemain
+        yang menguasai bidak hitam. Tujuan permainan ini adalah untuk menskakmat
+        raja lawan, di mana raja langsung diserang (dalam " skak") dan tidak ada
+        cara untuk melarikan diri. Ada juga beberapa cara permainan bisa
+        berakhir seri .
+      </p>
+    </div>
+    <div
+      id="TOD"
+      class="w3-container w3-center w3-animate-bottom w3-center game"
+      style="display: none"
+    >
+      <h2>Truth Or Dare</h2>
+      <img src="img/tod.jpg" width="30%" height="10%" />
+      <hr />
+      <p>
+        Truth Or Dare? adalah sebagian besar permainan pesta yang membutuhkan
+        dua atau lebih pemain. Pemain diberi pilihan antara menjawab pertanyaan
+        dengan jujur, atau melakukan tantangan . Game ini sangat populer di
+        kalangan remaja dan anak- anak , dan terkadang digunakan sebagai taruhan
+        Truth Or Dare pada akhirnya mungkin berasal dari permainan perintah
+        seperti basilinda Yunani kuno (dalam bahasa Yunani: Βασιλινδα).
+        Permainan ini dijelaskan oleh Julius Pollux : "di mana kita diberi tahu
+        seorang raja, dipilih dengan undian, memerintahkan rekan-rekannya apa
+        yang harus mereka lakukan".
+      </p>
+    </div>
+
+    <div
+      id="About"
+      class="w3-container w3-animate-zoom game"
+      style="display: none"
+    >
+      <center>
+        <h1>About Me?</h1>
+        <hr />
+        <table style="font-size: 30px">
+          <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>Fahri Arsyah</td>
+          </tr>
+          <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>IF - 2</td>
+          </tr>
+          <tr>
+            <td>Nim</td>
+            <td>:</td>
+            <td>10122048</td>
+          </tr>
+        </table>
+      </center>
+    </div>
+
+    <script>
+      function openGame(namagame) {
+        var i;
+        var x = document.getElementsByClassName("game");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(namagame).style.display = "block";
+      }
+    </script>
+  </body>
+</html>
